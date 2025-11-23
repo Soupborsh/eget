@@ -335,6 +335,9 @@ func rename(file string, nameguess string) string {
 	} else if strings.HasSuffix(file, ".exe") {
 		// directly use xxx.exe
 		rename = file
+	} else if strings.HasSuffix(file, ".jar") {
+		// directly use xxx.exe
+		rename = file
 	} else {
 		// otherwise use the rename guess
 		rename = nameguess
