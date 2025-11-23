@@ -1,4 +1,4 @@
-module github.com/zyedidia/eget
+module github.com/Soupborsh/eget
 
 go 1.18
 
